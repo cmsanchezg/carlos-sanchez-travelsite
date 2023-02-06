@@ -1,0 +1,84 @@
+/* nav bar for all pages */
+/* only change on the html of each page for the underline (.current_page) */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.nav__bar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    position: fixed;
+    top: 0;
+    width: 90vw;
+    
+}
+
+.nav__text {
+    color: #335576;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+.nav__item > a {
+    color: black;
+    font-size: 14px;
+    margin: 0px 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.nav__item--active {
+    border-bottom: 2.5px solid #db7a4e;
+}
+
+/* footer */
+
+.footer {
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 12rem;
+}
+
+.footer__title {
+    color: #335576;
+    font-size: 22px;
+}
+
+.footer__sub__title {
+    color: #db7a4e;
+    font-size: 9px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.footer__item {
+    color: #335576;
+    font-size: 14px;
+}
+
+.footer__hours {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__time {
+    margin-right: 1.25rem;
+}
+
+.footer__logo {
+    width: auto;
+    height: 25px;
+    margin: 1rem 1.5rem 0rem 0rem;
+}
